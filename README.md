@@ -1,6 +1,4 @@
-# 🐞 Bug Tracker App
 
-> A smart, ML-powered bug tracking app to manage issues and predict the bugs. 🔧✨
 
 ---
 
@@ -16,71 +14,43 @@
 ## 🚀 Live Demo
 
 🌐 [Click here to try it on Render](https://bug-tracker-00.onrender.com)  
-📦 Powered by: **Streamlit + SQLite + Scikit-learn**
 
----
+🐛 TrackTheBug - Bug Tracking System
+A simple and efficient bug tracking application built with Python and Streamlit.
+📋 Features
 
-## 💡 Features
+Track bugs and issues efficiently
+User-friendly interface with Streamlit
+Shape area calculator utility
+Machine learning integration for bug analysis (coming soon)
 
-- 📝 Add, edit, and view bugs with metadata
-- 🧠 ML-based assignment of team members using Random Forest Classifier
-- 📊 View status and modify existing issues
-- 🎯 Clean UI with intuitive UX (Streamlit-based)
-- 🧩 Switched to **SQLite** for easy deployment (ideal for Render)
+🚀 Installation
+Prerequisites
 
----
+Python 3.7 or higher
+pip (Python package manager)
 
-## 🗃️ Tech Stack
+Setup Steps
 
-| Layer        | Tech Used                          |
-|--------------|------------------------------------|
-| Frontend     | Streamlit                          |
-| Backend      | Python + SQLite                    |
-| ML           | scikit-learn (RandomForest)        |
-| Deployment   | Render                             |
-| Data Storage | `bug_data.db` (SQLite DB)          |
+Clone the repository:
 
----
+bashgit clone https://github.com/gaurixoxo/trackthebug.git
+cd trackthebug
 
-## 📁 Folder Structure
+Install required dependencies:
 
-bug-tracker/
-│
-├── bug_data.db # SQLite database file
-├── login.py # Main Streamlit app with login + navigation
-├── issue.py # Issue tracking & prediction logic
-├── bugBoard.py # Bug board or visualization module
-├── requirements.txt # All Python dependencies
-├── README.md # This file ✨
-└── render.yaml # Render deployment config
+bashpip install -r requirements.txt
+💻 Usage
+Running the Shape Calculator
+bashpython testing.py
+Running the Streamlit App (Coming Soon)
+bashstreamlit run app.py
+📦 Dependencies
 
+streamlit - Web framework for creating interactive apps
+pandas - Data manipulation and analysis
+scikit-learn - Machine learning library
 
----
-
-
-📦 Deployment (Render)
-Create a render.yaml:
-
-yaml
-Copy
-Edit
-services:
-  - type: web
-    name: bug-tracker-app
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run login.py --server.port=10000 --server.address=0.0.0.0
-
----
-
-🔮 Future Improvements
-Add user registration & roles
-
-Export issue reports as CSV
-
-Add charts & dashboards
-
-Convert to full-fledged Flask/Django app
 
 
   
