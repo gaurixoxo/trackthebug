@@ -92,8 +92,7 @@ Add charts & dashboards
 Convert to full-fledged Flask/Django app
 
 
-🤝 Contributors
-👩‍💻 Tanisha Gupta - Developer & Maintainer   
+  
 
 
     
