@@ -57,15 +57,6 @@ bug-tracker/
 
 ---
 
-## 🛠️ How to Run Locally
-
-
-git clone https://github.com/Taneesha000/Bug-tracker.git
-cd Bug-tracker
-pip install -r requirements.txt
-streamlit run login.py
----
-
 
 📦 Deployment (Render)
 Create a render.yaml:
