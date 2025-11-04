@@ -1,0 +1,9 @@
+CREATE TABLE issue (
+    issue_name TEXT,
+    Project_name TEXT,
+    Status TEXT,
+    Priority TEXT,
+    open_date TEXT,
+    closed_date TEXT,
+    assigned_to TEXT
+);

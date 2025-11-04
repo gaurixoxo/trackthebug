@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: bug-tracker-app
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run pages/page/login.py --server.port $PORT --server.enableCORS false
+
